@@ -24,8 +24,8 @@ import {
   SelectionSetNode,
 } from 'graphql';
 import { TypeScriptDocumentsPluginConfig } from './config';
-import { TypeScriptOperationVariablesToObject } from './ts-operation-variables-to-object';
-import { TypeScriptSelectionSetProcessor } from './ts-selection-set-processor';
+import { TypeScriptOperationVariablesToObject } from './ts-operation-variables-to-object.js';
+import { TypeScriptSelectionSetProcessor } from './ts-selection-set-processor.js';
 
 const unionSeparator = ' & ';
 
