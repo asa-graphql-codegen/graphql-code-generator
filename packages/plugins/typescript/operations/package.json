@@ -1,6 +1,6 @@
 {
   "name": "asa-graphql-ts-typescript-operations",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "Fork of @graphql-codegen/typescript-operations",
   "repository": {
     "type": "git",
@@ -10,6 +10,7 @@
   "homepage": "https://github.com/asa-graphql-codegen/graphql-code-generator/tree/master/packages/plugins/typescript/operations",
   "license": "MIT",
   "scripts": {
+    "prepare": "./root-build.sh",
     "lint": "eslint **/*.ts",
     "test": "jest --no-watchman --config ../../../../jest.config.js"
   },
